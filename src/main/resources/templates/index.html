@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Paradise - Animal Store</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link href="/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-paw"></i> Pet Paradise
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pets">Pets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary text-white ms-2" href="#">
+                            <i class="fas fa-shopping-cart"></i> Cart (3)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Welcome to Pet Paradise</h1>
+            <p class="lead">Your trusted partner for pets and pet supplies</p>
+            <p>Find your perfect companion or everything you need to keep them happy and healthy</p>
+            <a href="#pets" class="btn btn-primary btn-lg mt-3">Browse Pets <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- Pets Section -->
+    <section id="pets" class="container py-5">
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="text-center mb-4">Available Pets</h2>
+                <p class="text-center text-muted">Find your new best friend from our carefully selected pets</p>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Pet Cards will be populated by JavaScript/API -->
+            <div class="col-md-4 col-lg-3">
+                <div class="card pet-card">
+                    <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Golden Retriever">
+                    <div class="card-body">
+                        <span class="category-badge">Dogs</span>
+                        <h5 class="card-title mt-2">Golden Retriever</h5>
+                        <p class="card-text">Friendly and intelligent family dog, 3 months old.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="h5 text-primary">$800</span>
+                            <button class="btn btn-primary">Adopt Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="card pet-card">
+                    <img src="https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Persian Cat">
+                    <div class="card-body">
+                        <span class="category-badge">Cats</span>
+                        <h5 class="card-title mt-2">Persian Cat</h5>
+                        <p class="card-text">Beautiful long-haired cat, calm and affectionate.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="h5 text-primary">$600</span>
+                            <button class="btn btn-primary">Adopt Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="card pet-card">
+                    <img src="https://images.unsplash.com/photo-1591946614720-90a587da4a36?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Parrot">
+                    <div class="card-body">
+                        <span class="category-badge">Birds</span>
+                        <h5 class="card-title mt-2">African Grey Parrot</h5>
+                        <p class="card-text">Highly intelligent bird that can mimic human speech.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="h5 text-primary">$1200</span>
+                            <button class="btn btn-primary">Adopt Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="card pet-card">
+                    <img src="https://images.unsplash.com/photo-1559253664-ca249d4608c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Rabbit">
+                    <div class="card-body">
+                        <span class="category-badge">Small Pets</span>
+                        <h5 class="card-title mt-2">Holland Lop Rabbit</h5>
+                        <p class="card-text">Cute and friendly rabbit with floppy ears, great for kids.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="h5 text-primary">$150</span>
+                            <button class="btn btn-primary">Adopt Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Pet Products</h2>
+            <p class="text-center text-muted mb-5">High-quality products for your pet's needs</p>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1589924691995-400dc9ecc119?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Pet Food">
+                        <div class="card-body">
+                            <h5 class="card-title">Premium Dog Food</h5>
+                            <p class="card-text">Nutritionally balanced food for all dog breeds.</p>
+                            <span class="h5 text-primary">$45.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1576201836106-db1758fd1c97?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Pet Toys">
+                        <div class="card-body">
+                            <h5 class="card-title">Interactive Toys</h5>
+                            <p class="card-text">Keep your pet entertained and active.</p>
+                            <span class="h5 text-primary">$24.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Pet Bed">
+                        <div class="card-body">
+                            <h5 class="card-title">Comfort Pet Bed</h5>
+                            <p class="card-text">Soft and comfortable bed for your pet.</p>
+                            <span class="h5 text-primary">$89.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1596276020586-fb6b0b6126a4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Grooming Kit">
+                        <div class="card-body">
+                            <h5 class="card-title">Grooming Kit</h5>
+                            <p class="card-text">Complete set for keeping your pet clean and healthy.</p>
+                            <span class="h5 text-primary">$34.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container py-5">
+        <h2 class="text-center mb-5">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4 text-center mb-4">
+                <div class="feature-icon">
+                    <i class="fas fa-stethoscope"></i>
+                </div>
+                <h4>Veterinary Care</h4>
+                <p>Professional veterinary services for preventive care and treatment.</p>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <div class="feature-icon">
+                    <i class="fas fa-cut"></i>
+                </div>
+                <h4>Grooming</h4>
+                <p>Professional grooming services to keep your pet looking their best.</p>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <div class="feature-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <h4>Pet Boarding</h4>
+                <p>Safe and comfortable boarding when you're away.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Contact Us</h2>
+                    <p>Have questions? We're here to help!</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> 123 Pet Street, Animal City</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2"></i> (123) 456-7890</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> info@petparadise.com</li>
+                        <li class="mb-2"><i class="fas fa-clock me-2"></i> Mon-Sat: 9AM-8PM, Sun: 10AM-6PM</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5><i class="fas fa-paw"></i> Pet Paradise</h5>
+                    <p>Your trusted partner for all pet needs since 2010.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-youtube fa-lg"></i></a>
+                </div>
+            </div>
+            <hr class="bg-white">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2023 Pet Paradise. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="/js/app.js"></script>
+</body>
+</html>
