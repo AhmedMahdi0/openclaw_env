@@ -1,0 +1,2 @@
+Mock video for: Magical transformation of sample_3_enhanced, dreamy atmosphere, gentle movement
+Image: ./enhanced_images/sample_3_enhanced.jpg

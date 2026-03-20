@@ -1,0 +1,12 @@
+# Requirements for AI Video Shorts Creator
+Pillow>=10.0.0
+requests>=2.31.0
+openai>=1.0.0
+moviepy>=1.0.3
+python-dotenv>=1.0.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# Optional: for audio processing
+pydub>=0.25.1
+gtts>=2.3.0

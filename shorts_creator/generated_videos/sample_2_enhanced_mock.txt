@@ -1,0 +1,2 @@
+Mock video for: Beautiful cinematic animation of sample_2_enhanced, subtle motion, soft lighting
+Image: ./enhanced_images/sample_2_enhanced.jpg
